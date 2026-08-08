@@ -23,7 +23,7 @@ product_data = {
     "Store_Size": Store_Size,
     "Store_Location_City_Type": Store_Location_City_Type,
     "Store_Type": Store_Type,
-    "Product_Id_Type": Product_Id_Type,
+    "Product_ID_Type": Product_Id_Type,
     "Store_Age_Years": Store_Age_Years,
     "Product_Type_Category": Product_Type_Category,
 }
