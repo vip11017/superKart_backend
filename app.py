@@ -9,7 +9,7 @@ from flask import Flask, request, jsonify
 app = Flask('superkart_app')
 
 #load model 
-model = joblib.load("backend/superkart_model.joblib")
+model = joblib.load("superkart_model.joblib")
 
 # Define the route for the API
 @app.get('/')
