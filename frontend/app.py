@@ -32,7 +32,7 @@ product_data["MRP_x_Area"] = product_data["Product_MRP"] * product_data["Product
 product_data["MRP_per_Area"] = product_data["Product_MRP"] / product_data["Product_Allocated_Area"]
 
 if st.button("Predict", type="primary"):
-    response = requests.post("https://vigilant-memory-w6gxw75j7wg2g7wq-7860.app.github.dev/predict", json=product_data)
+    response = requests.post("https://obscure-engine-7qpwg954rxg3p9xw-7860.app.github.dev/predict", json=product_data)
     if response.status_code == 200:
         prediction = response.json()["Sales"]
         st.success(f"Predicted Sales: ${prediction: .2f}")
